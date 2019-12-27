@@ -7,7 +7,7 @@ const layoutStyle = {
 };
 
 const PageLayout = props => (
-  <div style={layoutStyle}>
+  <div style={{width: "100vw", height: "100vh", backgroundColor: "#DEDEDE"}}>
     <Header />
     {props.children}
   </div>

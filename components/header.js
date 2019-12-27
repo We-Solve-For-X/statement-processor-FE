@@ -11,7 +11,7 @@ export default function ButtonAppBar() {
 
   return (
     <div>
-      <AppBar position="static">
+      <AppBar position="static" color="#DEDEDE">
 
         <Toolbar style={{display: "flex", flexDirection: "row", justifyContent: "space-between"}}>
          <div>

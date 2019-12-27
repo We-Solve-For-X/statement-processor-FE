@@ -36,6 +36,7 @@ function ButtonAppBar() {
     __self: this
   }, __jsx(_material_ui_core_AppBar__WEBPACK_IMPORTED_MODULE_2__["default"], {
     position: "static",
+    color: "#DEDEDE",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
@@ -134,7 +135,11 @@ var layoutStyle = {// margin: 20,
 
 var PageLayout = function PageLayout(props) {
   return __jsx("div", {
-    style: layoutStyle,
+    style: {
+      width: "100vw",
+      height: "100vh",
+      backgroundColor: "#DEDEDE"
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
