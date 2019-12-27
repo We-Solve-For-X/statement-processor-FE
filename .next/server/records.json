@@ -1,0 +1,54 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "multi private-next-pages/about.js": 0,
+      "multi private-next-pages/index.js": 1,
+      "multi private-next-pages/login.js": 2,
+      "multi private-next-pages/process.js": 3,
+      "multi next/dist/pages/_app": 4,
+      "multi next/dist/pages/_error": 5,
+      "multi next/dist/pages/_document": 6
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6
+    }
+  },
+  "chunks": {
+    "byName": {
+      "init-server.js": 0,
+      "on-error-server.js": 1,
+      "static/qMWtK1TvNquvGp14GDzUY/pages/_app.js": 2,
+      "static/qMWtK1TvNquvGp14GDzUY/pages/_document.js": 3,
+      "static/qMWtK1TvNquvGp14GDzUY/pages/_error.js": 4,
+      "static/qMWtK1TvNquvGp14GDzUY/pages/about.js": 5,
+      "static/qMWtK1TvNquvGp14GDzUY/pages/index.js": 6,
+      "static/qMWtK1TvNquvGp14GDzUY/pages/login.js": 7,
+      "static/qMWtK1TvNquvGp14GDzUY/pages/process.js": 8,
+      "static/ZuiK2UvNaSX8AVMAB9key/pages/_app.js": 9,
+      "static/ZuiK2UvNaSX8AVMAB9key/pages/_document.js": 10,
+      "static/ZuiK2UvNaSX8AVMAB9key/pages/_error.js": 11,
+      "static/ZuiK2UvNaSX8AVMAB9key/pages/about.js": 12,
+      "static/ZuiK2UvNaSX8AVMAB9key/pages/index.js": 13,
+      "static/ZuiK2UvNaSX8AVMAB9key/pages/login.js": 14,
+      "static/ZuiK2UvNaSX8AVMAB9key/pages/process.js": 15
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      9
+    ]
+  }
+}
