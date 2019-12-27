@@ -1,6 +1,5 @@
 import Login from '../pages/login'
 
-
 const Index = () => {
     return (
         <Login/>
