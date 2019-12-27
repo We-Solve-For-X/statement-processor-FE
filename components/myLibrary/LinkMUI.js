@@ -10,8 +10,4 @@ const LinkMUI = ({href, title, as, style, variant, color}) => {
     )
 }
 
-const LinkMUI2 = () => {
-    return (<Button variant="contained">Default</Button>)
-}
-
 export default LinkMUI
