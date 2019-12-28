@@ -1,17 +1,48 @@
+import React from 'react'
 import PageLayout from '../components/PageLayout';
 import { useRouter } from 'next/router';
+import Button from '@material-ui/core/Button'
+import CategoryList from '../components/CategoryList'
 
-export default function About() {
+export default class Processor extends React.Component {
 
-    const router = useRouter();
-    console.log('q', router)
+constructor(props) {
+    super(props);
+    this.state = { counter: 0 };
+}
 
+render() {
     return (
         <PageLayout>
-            <p>This is the process page.</p>
-            <p>This website was built as an attempt to upskill in React, NextJS + Kotlin.</p>
+            <div style={{display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "flex-start", padding: 15}}>
+                <div style={{display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "flex-start"}}>
+                    <h1>Statement Processor</h1>
+                </div>
+                <div style={{display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "flex-start"}}>
+                    <h2>Define Search Categories</h2>
+                    <CategoryList/>
+                </div>
+                <div style={{display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "flex-start"}}>
+                    <h2>Upload File</h2>
+                    <input type="file" onChange={this.fileHandler.bind(this)} style={{"padding":"10px"}} />
+                </div>
+                <div style={{display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "flex-start"}}>
+                <Button variant="contained" color="secondary">
+                Process Statement
+                </Button>
+                </div>
+
+            </div>
         </PageLayout>
-    );
+    )
+}
+
+fileHandler = (event) => {
+    let fileObj = event.target.files[0];
+    console.log('uploaded')             
+
   }
+
+}
 
 
