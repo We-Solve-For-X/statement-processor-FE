@@ -2,6 +2,7 @@ import LinkMUI from '../components/myLibrary/LinkMUI'
 import Paper from '@material-ui/core/Paper';
 import TextField from '@material-ui/core/TextField';
 import images from '../assets/images/images'
+import router from '../config/router'
 
 const Login = () => {
     return (
@@ -12,7 +13,7 @@ const Login = () => {
                 <div style={{display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "center"}}>
                     <TextField id="standard-basic" label="Username" style = {{width: 250, margin: 10}}/>
                     <TextField id="standard-basic" label="Password" style = {{width: 250, margin: 10}}/>
-                    <LinkMUI href="/process" title="Login" variant="contained" style={{margin: 10, width: 200}}>
+                    <LinkMUI href={router.processor} title="Login" variant="contained" style={{margin: 10, width: 200}}>
                         Login Here
                     </LinkMUI>
                 </div>

@@ -7,11 +7,11 @@ import Button from '@material-ui/core/Button';
 import LinkMUI from '../components/myLibrary/LinkMUI'
 
 
-export default function ButtonAppBar() {
+export default function Header() {
 
   return (
     <div>
-      <AppBar position="static" color="#DEDEDE">
+      <AppBar position="sticky" color="#DEDEDE">
 
         <Toolbar style={{display: "flex", flexDirection: "row", justifyContent: "space-between"}}>
          <div>

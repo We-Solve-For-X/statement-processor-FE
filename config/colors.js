@@ -1,3 +1,5 @@
 export default {
-    primaryGrey: 'blue'
+    primaryGrey: '#282828',
+    primaryOffWhite: "#FCFEFF",
+    secondaryBrown: "#F1EFE9"
 }
