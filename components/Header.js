@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <div>
-      <AppBar position="sticky" color="#DEDEDE">
+      <AppBar position="fixed" color="#DEDEDE">
 
         <Toolbar style={{display: "flex", flexDirection: "row", justifyContent: "space-between"}}>
          <div>

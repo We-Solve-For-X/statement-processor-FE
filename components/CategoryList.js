@@ -34,10 +34,9 @@ export default class Processor extends React.Component {
 
     removeCategory = (category = '') => {
         const newListItems = this.state.listItems.filter(function(obj){
-            return category == obj.category
+            return category != obj.category
         });
         this.setState({listItems: newListItems})
     }
-
 }
 
