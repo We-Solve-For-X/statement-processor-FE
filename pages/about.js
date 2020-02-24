@@ -8,8 +8,10 @@ export default function About() {
 
     return (
         <PageLayout>
-            <p>This is the about page.</p>
-            <p>This website was built as an attempt to upskill in React, NextJS + Kotlin.</p>
+            <div style={{padding: 15}}>
+                <p>This is the about and instructions page.</p>
+                <p>Add basic instructions on how the statement processor works, here</p>
+            </div>
         </PageLayout>
     );
   }
